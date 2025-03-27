@@ -3,5 +3,5 @@
 2. Open your terminal or MySQL client.
 3. Run the following command:
    ```bash
-   mysql -u username -p < db/career_pathfinder.sql
+   mysql -u root -p < db/career_pathfinder.sql
 
