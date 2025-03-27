@@ -76,7 +76,7 @@ def main():
         start_now = input("Would you like to start the app now? (Y/N): ").strip().lower()
         if start_now == "y":
             print("Starting the app...")
-            subprocess.run("python run.py", shell=True)
+            subprocess.run("python3 run.py", shell=True)
         else:
             print("Setup complete. You can start the app manually using 'python run.py'.")
     else:
