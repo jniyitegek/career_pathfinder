@@ -14,11 +14,20 @@ cd C3-PLP-G10-Project
 ```
 
 1. Ensure you have MySQL installed.
-2. Install dependencies
+2. Install dependencies; NB these dependencies include tabulate, DOTENV, Mysql-connector-python which are crucial to run the app successfully. once you are done installing the requirements you are not required to run it ever again.
    ```sh
    pip install -r requirements.txt
    ```
-3. Run the following command:
+3. Run the following command, this starts the setup of the app and you are ready to go:
    ```sh
    python3 setup.py
    ```
+Finally, you will asked to provide your mysql username and password, don't worry they are needed to automatically connect to your local mysql servers. 
+
+if you did not set username for mysql please type: **root**
+
+4. After setting up the project you will be asked if you wish to start the app automatically please type **Y** for yes  or **N** for no; then you will have to run the command provided later (python3 run.py)
+
+Later you will be asked to provide your name so that we know who we are working with. 
+
+**Enjoy!**
