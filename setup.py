@@ -73,7 +73,7 @@ def main():
         update_database_py(db_username, db_password)
         install_dependencies()
         
-        start_now = input("Would you like to start the app now? (Y/N): ").strip().lower()
+        start_now = input("Would you like to start the app now? (Y/N) or start it manually by runnning python3 run.py: ").strip().lower()
         if start_now == "y":
             print("Starting the app...")
             subprocess.run("python3 run.py", shell=True)
