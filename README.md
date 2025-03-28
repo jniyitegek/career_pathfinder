@@ -1,7 +1,17 @@
-## Database Setup
-1. Ensure you have MySQL installed.
-2. Open your terminal or MySQL client.
-3. Run the following command:
-   ```bash
-   mysql -u root -p < db/career_pathfinder.sql
+## APP Setup
 
+First Clone the repository and navigate to project Folder
+
+```sh
+git clone <link>
+```
+
+1. Ensure you have MySQL installed.
+2. Install dependencies
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the following command:
+   ```sh
+   python3 setup.py
+   ```
