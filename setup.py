@@ -56,7 +56,7 @@ def install_dependencies():
 
 def main():
     print("Setting up Career Pathfinder App...\n")
-    db_username = input("Enter your MySQL username: ")
+    db_username = input("Enter your MySQL username or (root): ")
     db_password = getpass.getpass("Enter your MySQL password: ")
     database_name = "career_pathfinder"
     sql_file = "db/career_pathfinder.sql"
