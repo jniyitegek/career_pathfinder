@@ -49,8 +49,8 @@ def start():
             print("Here are some tips to help you:\n")
             for title, description, best_practices, common_mistakes in tips:
                 print(f"Title: {title}\nDescription: {description}\n")
-                print(f"✅ Best Practices:\n{best_practices}\n")
-                print(f"❌ Common Mistakes:\n{common_mistakes}")
+                print(f"Best Practices:\n{best_practices}\n")
+                print(f"Common Mistakes:\n{common_mistakes}")
                 print("-" * 50)  # Draw a horizontal line
         else:
             print("No tips found for this category.")
